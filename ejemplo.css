@@ -1,0 +1,27 @@
+.container {
+    margin: 20%;
+    /* agrega un margen para centrar los cuadrados en la pantalla */
+    display: flex;
+    /* coloca los cuadrados uno al lado del otro */
+    gap: 10px;
+    /* agrega espacios iguales entre cada cuadrado */
+    flex-direction: column;
+}
+
+.cuadrado {
+    width: 100px;
+    /* Ancho del cuadrado */
+    height: 100px;
+    /* Alto del cuadrado */
+    background-color: blue;
+    /* Color de fondo */
+    border: 2px solid black;
+    /* Borde para resaltar */
+}
+section{
+    border-style: solid;    /* Crea un borde sólido */
+    border-color:red;   /* Colorea el borde con el color rojo*/
+    margin: 10%;    /* Agrega un margen alrededor de la section */
+    display: flex;  /* Agrega el display flex */
+    justify-content: center;
+}
